@@ -1,0 +1,50 @@
+ortal.netzer
+312416845
+ortal glatt
+
+=============================
+=  README for ex7:   =
+=============================
+
+
+==================
+=  Description:  =
+==================
+In this exercise, we built 10 different recursive function.
+
+The functions in ex7:
+
+Part A:
+* "print_to_n" - Gets an int 'n'. If n is bigger then 0, the function will
+print all the numbers from 1 to n, every number in a different line.
+* "print_reversed" - Gets an int 'n'. If n is bigger then 0, the function will
+print all the numbers from 1 to n when the numbers are going down. every number
+is printed in a different line.
+* "is_prime" - Gets a number and return True if it's a prime number, and
+False if it's not prime. This function uses the function
+"has_divisor_smaller_then" to check if n is divided by a number between 1 to
+(n**0.5+1).
+* "exp_n_x" - Gets 2 numbers, 'n' - int and 'x' - float.By using the
+"factorial" function, It returns the exponential sum function of (n, x), an
+approximation for e^x.
+
+Part B:
+* "play_hanoi" - Solve the game 'Towers of Hanoi'.
+The function gets the graphic object - 'hanoi', the number of discs - 'n', the
+rod that the discs will be on when the game begin - 'src', the rod that the
+discs will be on at the end of the game - 'dest', and the third rod - 'temp'.
+* "print_sequences" - Gets a list of different characters - 'char_list and a
+number -'n'. The function will print all the combinations of the characters in
+the list that their length is n (with repetition).
+* "print_no_repetition_sequences" - Gets a list of different characters -
+'char_list and a number -'n'. The function will print all the combinations of
+the characters in the list that their length is n without repetition.
+* "parentheses" - Gets a number, and by using "help_parentheses", returns a
+list of all the mathematically legal combinations of n pairs of parentheses.
+* "up_and_right" - Gets two numbers - 'n' is the number of steps to the right,
+and 'k' is the numbers of steps up. The function prints all the optional ways
+to go from the point (0,0) to the point (n,k) when every step can be only up or
+right.
+* "flood_fill" - Gets an image -  list of sub-lists of stars and dots, and a
+start point. The function will change every point in the image that you can
+reach from the start point without passing on stars, to a star.
